@@ -13,6 +13,8 @@
 		954817C41F74518100285F5F /* Blog_Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 954817C21F74518100285F5F /* Blog_Reader.xcdatamodeld */; };
 		954817C61F74518100285F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954817C51F74518100285F5F /* Assets.xcassets */; };
 		954817C91F74518100285F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954817C71F74518100285F5F /* LaunchScreen.storyboard */; };
+		954817D11F745ADF00285F5F /* PostCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954817D01F745ADF00285F5F /* PostCellViewController.swift */; };
+		954817D31F747A2D00285F5F /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954817D21F747A2D00285F5F /* PostDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		954817C51F74518100285F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		954817C81F74518100285F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		954817CA1F74518100285F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954817D01F745ADF00285F5F /* PostCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellViewController.swift; sourceTree = "<group>"; };
+		954817D21F747A2D00285F5F /* PostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				954817C71F74518100285F5F /* LaunchScreen.storyboard */,
 				954817CA1F74518100285F5F /* Info.plist */,
 				954817C21F74518100285F5F /* Blog_Reader.xcdatamodeld */,
+				954817D01F745ADF00285F5F /* PostCellViewController.swift */,
+				954817D21F747A2D00285F5F /* PostDetailsViewController.swift */,
 			);
 			path = "Blog Reader";
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				954817D11F745ADF00285F5F /* PostCellViewController.swift in Sources */,
 				954817C41F74518100285F5F /* Blog_Reader.xcdatamodeld in Sources */,
 				954817BE1F74518100285F5F /* ViewController.swift in Sources */,
 				954817BC1F74518100285F5F /* AppDelegate.swift in Sources */,
+				954817D31F747A2D00285F5F /* PostDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
